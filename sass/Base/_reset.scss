@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-size: $font-size-html;
+}
+
+.logo {
+    width: 60px;
+    height: 40px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color:$color-gray-3;
+    text-transform: uppercase;
+    font-weight: bold;
+    &:hover {
+        text-decoration: none;
+        color:$color-black;
+        transition: .8s;
+    }
+}

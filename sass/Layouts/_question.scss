@@ -1,0 +1,11 @@
+.question{
+    padding: 40px 0;
+    border-bottom: 4px solid $background-pink-1;
+    a{
+        text-decoration:none;
+        color: $color-black;
+        &:hover{
+            color: $background-pink-1;
+        }
+    }
+}

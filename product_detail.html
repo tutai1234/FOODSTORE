@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOODS</title>
+    <!-- animate css-->
+    <link rel="stylesheet" href="./css/animate/animate.css">
+    <!-- awesome css-->
+    <link rel="stylesheet" href="./css/awesome/font-awesome.css">
+    <!-- bootstrap css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- carousel css-->
+    <!-- <link rel="stylesheet" href="./css/carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/carousel/owl.theme.default.min.css"> -->
+    <!-- scrollbarcss -->
+    <link rel="stylesheet" href="./css/jquery_scrollbar/jquery.mCustomScrollbar.css">
+    <!-- lightbox css-->
+    <link rel="stylesheet" href="./css/lightbox/lightbox.min.css">
+    <!-- swiper css-->
+    <link rel="stylesheet" href="./css/swiper/swiper.min.css">
+    <!-- venobox css-->
+    <link rel="stylesheet" href="./css/venobox/venobox.css">
+    <!-- shortcut  css-->
+    <link rel="shortcut icon" href="images/logo/logo.png" type="image/x-icon" />
+    <!-- style -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"><div class="pd-wrap">
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- sass ./sass/main.scss ./css/main.css --watch -->
+
+</head>
+
+<body>
+    <!-- header start-->
+    <!-- heade_top -->
+    <header id="header">
+        <section class="header-top">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper header-top-content">
+                    <div class="swiper-slide bg-green-1">Ưu đãi có hạn: Nhận $ 60 MIỄN PHÍ trên tạp chí hôm nay.
+                        <span>Điều
+                            khoản</span></div>
+                    <div class="swiper-slide bg-green-1">Ưu đãi miễn ship: Cho đơn hàng từ $100. <span>Điều khoản</span>
+                    </div>
+                    <div class="swiper-slide bg-green-1 ">Ưu đãi quà tặng: Mua 2 tặng 1 chỉ hôm nay. <span>Điều
+                            khoản</span></div>
+                </div>
+            </div>
+        </section>
+        <section class="header-bottom">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="#"><img class="logo" src="./images/logo/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fa fa-align-justify"></span>
+                </button>
+  
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-align-center"></i> Danh mục
+  
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Thịt</a>
+                                <a class="dropdown-item" href="#">Cá</a>
+                                <a class="dropdown-item" href="#">Rau củ quả</a>
+                                <a class="dropdown-item" href="#">Bánh & kẹo</a>
+                                <a class="dropdown-item" href="#">Cafe</a>
+                                <a class="dropdown-item" href="#">Nước giải khát</a>
+                                <a class="dropdown-item" href="#">Đồ đông lạnh</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="index.html"> <i class="fa fa-home"></i> Home</a>
+                        </li>
+                        <form class="form-inline my-2 my-lg-0 border-2">
+                            <div class="input-group">
+                                <input type="search" class="form-control rounded" placeholder="Tìm kiếm..."
+                                    aria-label="Search" aria-describedby="search-addon" />
+                            </div>
+                        </form>
+                    </ul>
+                    <form class="form-inline mr-2">
+                        <button class="btn btn-outline-success btn-bg-1" type="button">
+                           <a href="login.html"> Đăng nhập</a>
+                        </button>
+                    </form>
+                    <form class="form-inline mr-2">
+                        <button class="btn btn-outline-success btn-bg-2" type="button">
+                            <i class="fa fa-gifts"></i>
+                            <a href="gift.html">Quà tặng miễn phí</a>
+                        </button>
+                    </form>
+                    <form class="form-inline">
+                        <button class="btn btn-outline-success btn-bg-1" type="button">
+                            <i class="fa fa-shopping-cart"></i>
+                           <a href="cart.html"> Giỏ hàng</a>
+                        </button>
+                    </form>
+                </div>
+            </nav>
+        </section>
+    </header>
+    <!-- header end -->
+
+
+
+    <!-- main start  -->
+   <main>
+
+    <section class="product_detail">
+		<div class="container">
+	        <div class="heading-section">
+	        </div>
+	        <div class="row">
+	        	<div class="col-md-6">
+	        		<div id="slider" class="owl-carousel product-slider">
+						<div class="item">
+						  	<img src="./images/product_detail/product_detail_1.jpg" />
+						</div>
+						<div class="item">
+                            <img src="./images/product_detail/product_detail_2.jpg" />
+						</div>
+						<div class="item">
+                            <img src="./images/product_detail/product_detail_3.jpg" />
+						</div>
+						<div class="item">
+                            <img src="./images/product_detail/product_detail_4.jpg" />
+						</div>
+						<div class="item">
+                            <img src="./images/product_detail/product_detail_5.jpg" />
+						</div>
+						<div class="item">
+                            <img src="./images/product_detail/product_detail_6.jpg" />
+						</div>
+						<div class="item">
+                            <img src="./images/product_detail/product_detail_1.jpg" />
+						</div>
+					</div>
+					<div id="thumb" class="owl-carousel product-thumb">
+						<div class="item">
+                            <img src="./images/product_detail/product_detail_1.jpg" />
+						</div>
+						<div class="item">
+                            <img src="./images/product_detail/product_detail_2.jpg" />
+						</div>
+						<div class="item">
+                            <img src="./images/product_detail/product_detail_3.jpg" />
+						</div>
+						<div class="item">
+                            <img src="./images/product_detail/product_detail_4.jpg" />
+						</div>
+						<div class="item">
+							<img src="./images/product_detail/product_detail_5.jpg" />
+						</div>
+						<div class="item">
+                            <img src="./images/product_detail/product_detail_6.jpg" />
+						</div>
+						<div class="item">
+                            <img src="./images/product_detail/product_detail_1.jpg" />
+						</div>
+					</div>
+	        	</div>
+	        	<div class="col-md-6">
+		        			<div class="product_detail-name">Me chua gói 250g</div>
+		        			<div class="reviews-counter">
+								<div class="rate">
+								    <input type="radio" id="star5" name="rate" value="5" checked />
+								    <label for="star5" title="text">5 stars</label>
+								    <input type="radio" id="star4" name="rate" value="4" checked />
+								    <label for="star4" title="text">4 stars</label>
+								    <input type="radio" id="star3" name="rate" value="3" checked />
+								    <label for="star3" title="text">3 stars</label>
+								    <input type="radio" id="star2" name="rate" value="2" />
+								    <label for="star2" title="text">2 stars</label>
+								    <input type="radio" id="star1" name="rate" value="1" />
+								    <label for="star1" title="text">1 star</label>
+								  </div>
+							</div>
+		        			<div class="product_detail-discount">  
+                               164.000đ
+                            </div>
+	        			<p>Me chua được đóng gói thành từng hộp gọn gàng và ngăn nắp, có công dụng làm gia vị trong các món ăn như canh chua. Ngoài ra, các dưỡng chất trong me cũng mang đến rất nhiều dưỡng chất cực tốt cho cơ thể như: giảm mỡ, ngừa thiếu máu, cao huyết áp,..</p>
+	        			<div class="product_detail-count">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <label for="">Số lượng</label>
+                                </div>
+                                <div class="col-sm-9">
+                                    <form action="#" class="display-flex">
+                                        <div class="qtyminus">-</div>
+                                        <input type="text" name="quantity" value="1" class="qty">
+                                        <div class="qtyplus">+</div>
+                                    </form>
+                                </div>
+                            </div>
+                           
+	        				
+							<div class="product_detail-choosebuy"><a href="cart.html">Thêm giỏ hàng</a></div> 
+	        			</div>
+	        	</div>
+	        </div>
+	        <div class="product_detail-info">
+		        <ul class="nav nav-tabs" id="myTab" role="tablist">
+				  	<li class="nav-item">
+				    	<a class="nav-link active" id="description-tab" data-toggle="tab" href="#description" role="tab" aria-controls="description" aria-selected="true">Mô tả</a>
+				  	</li>
+				  	<li class="nav-item">
+				    	<a class="nav-link" id="review-tab" data-toggle="tab" href="#review" role="tab" aria-controls="review" aria-selected="false">Đánh giá (4)</a>
+				  	</li>
+				</ul>
+				<div class="tab-content" id="myTabContent">
+				  	<div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
+                       <h4> Ưu điểm khi mua me chua tại Bách hoá XANH</h4>
+                       <ul>
+                        <li>Me chua chất lượng, có vị chua chua, thơm. Sản phẩm được làm sạch, đóng túi lớn dễ chế biến, bảo quản được lâu, giúp người nội trợ tiết kiệm được nhiều thời gian.</li>
+                        <li>  Me chua được đảm bảo nguồn gốc xuất xứ rõ ràng.</li>
+                        <li>   Đặt giao hàng nhanh</li>
+                        <li> Ưu điểm khi mua me chua tại Bách hoá XANH</li>
+                       </ul>
+                       <h4> Giá trị dinh dưỡng của me chua vắt</h4>
+                       <ul>
+                        <li>Trong me chua vắt chứa nhiều chất dinh dưỡng như chất xơ, protein, các khoáng chất như phốt pho, magie, kali, sắt,....</li>
+                        <li> Trong 100g me chua vắt có khoảng <b>164 Kcal.</b></li>
+                       </ul>
+				  	</div>
+				  	<div class="tab-pane fade" id="review" role="tabpanel" aria-labelledby="review-tab">
+				  		<div class="review-heading">Đánh giá</div>
+				  		<p class="mb-20">Me chua chất lượng, có vị chua chua, thơm. Sản phẩm được làm sạch, đóng túi lớn dễ chế biến, bảo quản được lâu, giúp người nội trợ tiết kiệm được nhiều thời gian.</p>
+				  		<form class="review-form">
+		        			<div class="form-group">
+			        			<label>Đánh giá sản phẩm</label>
+			        			<div class="reviews-counter">
+									<div class="rate">
+									    <input type="radio" id="star5" name="rate" value="5" />
+									    <label for="star5" title="text">5 stars</label>
+									    <input type="radio" id="star4" name="rate" value="4" />
+									    <label for="star4" title="text">4 stars</label>
+									    <input type="radio" id="star3" name="rate" value="3" />
+									    <label for="star3" title="text">3 stars</label>
+									    <input type="radio" id="star2" name="rate" value="2" />
+									    <label for="star2" title="text">2 stars</label>
+									    <input type="radio" id="star1" name="rate" value="1" />
+									    <label for="star1" title="text">1 star</label>
+									</div>
+								</div>
+							</div>
+		        			<div class="form-group">
+			        			<label>Hỏi đáp của bạn</label>
+			        			<textarea class="form-control" rows="10" placeholder="Mời bạn bình luận hoặc đặt câu hỏi..."></textarea>
+			        		</div>
+			        		<div class="row">
+				        		<div class="col-md-6">
+				        			<div class="form-group">
+					        			<input type="text" name="" class="form-control" placeholder="Tên của bạn">
+					        		</div>
+					        	</div>
+				        		<div class="col-md-6">
+				        			<div class="form-group">
+					        			<input type="text" name="" class="form-control" placeholder="Email của bạn">
+					        		</div>
+					        	</div>
+					        </div>
+					        <button class="round-black-btn">Gửi đánh giá của bạn</button>
+			        	</form>
+				  	</div>
+				</div>
+			</div>
+			
+			<div class="product_detail-order">Đặt online giao tận nhà ĐÚNG GIỜ <a href="" target="_blank">-> www.foods.com</a></div>
+		</div>
+    </section>
+	</div>
+
+   </main>
+
+    <!-- main end  -->
+
+
+
+
+
+      <!-- footer start -->
+      <footer class="container-fluid footer">
+        <section class="footer-top container">
+            <div class="footer-top-left">
+            <a href="index.html">   <img src="./images/logo/logo.png" alt=""></a>
+            </div>
+            <div class="footer-top-right">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+        </section>
+        <section class="footer-center container">
+            <div class="footer-center-menu">
+                <a href="gift.html">Quà tặng -</a>
+                <a href="regulation.html">Điều khoản -</a>
+                <a href="login.html">Thông tin cá nhân -</a>
+                <a href="return_policy.html">Chính sách -</a>
+                <a href="map.html">Liên hệ</a>
+            </div>
+            <div class="footer-center-title">
+                Nếu bạn bị khiếm thị và gặp khó khăn với trang web của chúng tôi, hãy gọi cho chúng tôi theo số
+                1‑855‑997‑2315
+            </div>
+            <div class="footer-center-title">
+                Trang web này được bảo vệ bởi reCAPTCHA và <span><a href="return_policy.html" class="text-white"> Chính sách quyền riêng tư</a> và <a href="regulation.html" class="text-white">Điều khoản dịch vụ</a></span>
+                của Google sẽ được áp dụng.
+            </div>
+
+        </section>
+        <section class="footer-bottom">
+            © Thrive Market 2022 All rights reserved.
+        </section>
+    </footer>
+    <!-- footer end  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- js --------------------------------------------------------------------------->
+    <!-- backtotop js-->
+    <script src="./js/backtotop/main-backToTop.js"></script>
+    <!-- bootstrap js -->
+    <!-- <script src="./js/bootstrap/bootstrap.min.js"></script> -->
+    <!-- carousel js-->
+    <!-- <script src="./js/carousel/owl.carousel.min.js"></script> -->
+    <!-- jquery js-->
+    <!-- <script src="./js/jquery/jquery.min.js"></script> -->
+    <script src="./js/main/card.js"></script>
+    <!-- countup -->
+    <script src="./js/jquery_countup/jquery.countup.js"></script>
+    <!-- scrollbar -->
+    <script src="./js/jquery_scrollbar/jquery.mCustomScrollbar.js"></script>
+    <!-- util js-->
+    <script src="./js/jquery_util/util.js"></script>
+    <!-- wow js-->
+    <script src="./js/jquery_wow/wow.min.js"></script>
+    <!-- lightbox -->
+    <script src="./js/lightbox/lightbox.min.js"></script>
+    <!-- popper -->
+    <!-- <script src="./js/popper/popper.min.js"></script> -->
+    <!-- swiper -->
+    <script src="./js/swiper/swiper.min.js"></script>
+    <!-- awesome js -->
+    <script src="./js/awesome/all-awesome.min.js"></script>
+    <!-- boostrap -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- main -->
+    <script src="./js/main/product_detail.js"></script>
+</body>
+
+</html>

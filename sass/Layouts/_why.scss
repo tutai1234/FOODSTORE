@@ -1,0 +1,23 @@
+.why{
+    padding: 50px 0;
+    &-img img{
+        width: 50px;
+        height: 50px;
+    }
+    &-desc{
+        font-size: $font-size-html;
+        font-weight: $font-weight-bold;
+        color: $color-gray-3;
+        
+    }
+}
+
+
+// responsive
+@media screen and (max-width: 778px) {
+    .why{
+       .why-list-item{
+            padding-top: 10px;
+       }
+    }
+}

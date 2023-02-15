@@ -1,0 +1,92 @@
+.wedoit {
+    background-color: $color-dark-blue-400;
+    padding: 0px 0;
+    border: none;
+    margin: auto;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+
+    &-box{
+        padding: 10px 20px;
+        background-color: $color-dark-blue-300;
+        position: relative;
+        box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.1),
+        inset -2px -5px 10px rgba(255, 255, 255, 1),
+        15px 15px 10px rgba(0, 0, 0, 0.05),
+        15px 10px 15px rgba(0, 0, 0, 0.025);
+        border-radius: 20px ;
+        text-align: center;
+    }
+
+    &-img{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+
+    &-item {
+        padding: 10px 50px;
+        position: relative;
+        color: $color-black;
+        width: 50%;
+    }
+
+    &-list {
+        position: relative;
+
+        &::after {
+            content: '';
+            position: absolute;
+            width: 6px;
+            height: 100%;
+            background: #fff;
+            top: 0;
+            left: 50%;
+        }
+
+    }
+
+    &-left {
+        left: 0;
+
+        &-arrow {
+            height: 0;
+            width: 0;
+            position: absolute;
+            top: 28px;
+            z-index: 1;
+            border-top: 15px solid transparent;
+            border-bottom: 15px solid transparent;
+            border-left: 15px solid $color-dark-blue-300;
+            right: -15px;
+        }
+    }
+
+    &-right {
+        left: 50%;
+        &-arrow{
+            height: 0;
+            width: 0;
+            position: absolute;
+            top: 28px;
+            z-index: 1;
+            border-top: 15px solid transparent;
+            border-bottom: 15px solid transparent;
+            border-right: 15px solid $color-dark-blue-300;
+            left: -15px;
+        }
+    }
+}
+
+
+// responsive
+@media screen and (max-width:768px) {
+    .wedoit{
+        &-box{
+          width: 150px;
+        }
+    }
+
+}

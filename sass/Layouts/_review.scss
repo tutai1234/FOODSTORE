@@ -1,0 +1,20 @@
+.review{
+    padding: 50px 0;
+    background-color: $background-pink-1;
+    &-item{
+        background: $color-white;
+        text-align: center;
+        border: 1px solid $color-black;
+        padding: 10px 0;
+    }
+    &-socials{
+        img{
+            width: 105px;
+            height: 70px;
+        }
+    }
+    &-stars {
+        color: $color-yellow-1;
+        font-size: $font-size-4;
+    }
+}

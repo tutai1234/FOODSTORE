@@ -1,0 +1,35 @@
+.faqs {
+    color: $color-black;
+    background-image: url('/images/banner/banner_6.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+    &-btn{
+        text-align: center;
+    }
+}
+
+.faqs .card {
+    cursor: pointer;
+    color: $color-black;
+    background-color: $color-white;
+    padding: 10px 0;
+}
+
+.faqs .card a {
+    color: $color-black;
+    text-decoration: none;
+}
+
+.accordion-icon[aria-expanded="false"] .fa-angle-down {
+    transform: rotate(0deg);
+}
+
+.accordion-icon[aria-expanded="true"] .fa-angle-down {
+    transform: rotate(180deg);
+    transition: 0.5s;
+}
+
+@media screen and (max-width:992px){
+    
+}

@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOODS</title>
+    <!-- animate css-->
+    <link rel="stylesheet" href="./css/animate/animate.css">
+    <!-- awesome css-->
+    <link rel="stylesheet" href="./css/awesome/font-awesome.css">
+    <!-- bootstrap css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- carousel css-->
+    <!-- <link rel="stylesheet" href="./css/carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/carousel/owl.theme.default.min.css"> -->
+    <!-- scrollbarcss -->
+    <link rel="stylesheet" href="./css/jquery_scrollbar/jquery.mCustomScrollbar.css">
+    <!-- lightbox css-->
+    <link rel="stylesheet" href="./css/lightbox/lightbox.min.css">
+    <!-- swiper css-->
+    <link rel="stylesheet" href="./css/swiper/swiper.min.css">
+    <!-- venobox css-->
+    <link rel="stylesheet" href="./css/venobox/venobox.css">
+    <!-- animation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- shortcut  css-->
+    <link rel="shortcut icon" href="images/logo/logo.png" type="image/x-icon" />
+    <!-- style -->
+    <link rel="stylesheet" href="./css/main.css">
+
+    <!-- sass ./sass/main.scss ./css/main.css --watch -->
+</head>
+
+<body>
+    <!-- header start-->
+    <!-- heade_top -->
+    <header id="header">
+        <section class="header-top">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper header-top-content">
+                    <div class="swiper-slide bg-green-1">Ưu đãi có hạn: Nhận $ 60 MIỄN PHÍ trên tạp chí hôm nay.
+                        <span>Điều
+                            khoản</span></div>
+                    <div class="swiper-slide bg-green-1">Ưu đãi miễn ship: Cho đơn hàng từ $100. <span>Điều khoản</span>
+                    </div>
+                    <div class="swiper-slide bg-green-1 ">Ưu đãi quà tặng: Mua 2 tặng 1 chỉ hôm nay. <span>Điều
+                            khoản</span></div>
+                </div>
+            </div>
+        </section>
+        <section class="header-bottom">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="#"><img class="logo" src="./images/logo/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fa fa-align-justify"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-align-center"></i> Danh mục
+    
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Thịt</a>
+                                <a class="dropdown-item" href="#">Cá</a>
+                                <a class="dropdown-item" href="#">Rau củ quả</a>
+                                <a class="dropdown-item" href="#">Bánh & kẹo</a>
+                                <a class="dropdown-item" href="#">Cafe</a>
+                                <a class="dropdown-item" href="#">Nước giải khát</a>
+                                <a class="dropdown-item" href="#">Đồ đông lạnh</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="index.html"> <i class="fa fa-home"></i> Home</a>
+                        </li>
+                        <form class="form-inline my-2 my-lg-0 border-2">
+                            <div class="input-group">
+                                <input type="search" class="form-control rounded" placeholder="Tìm kiếm..."
+                                    aria-label="Search" aria-describedby="search-addon" />
+                            </div>
+                        </form>
+                    </ul>
+                    <form class="form-inline mr-2">
+                        <button class="btn btn-outline-success btn-bg-1" type="button">
+                           <a href="login.html"> Đăng nhập</a>
+                        </button>
+                    </form>
+                    <form class="form-inline mr-2">
+                        <button class="btn btn-outline-success btn-bg-2" type="button">
+                            <i class="fa fa-gifts"></i>
+                            <a href="gift.html">Quà tặng miễn phí</a>
+                        </button>
+                    </form>
+                    <form class="form-inline">
+                        <button class="btn btn-outline-success btn-bg-1" type="button">
+                            <i class="fa fa-shopping-cart"></i>
+                           <a href="cart.html"> Giỏ hàng</a>
+                        </button>
+                    </form>
+                </div>
+            </nav>
+        </section>
+    </header>
+    <!-- header end -->
+
+    <!-- main start  -->
+    <main>
+        <!-- grocery -->
+        <section class="grocery container-fluid">
+            <h2>Danh sách sản phẩm</h2>
+            <div class="grocery-list">
+                <div class="grocery-item">
+                    <img src="./images/grocery/grocery_1.webp" class="img-fluid" alt="">
+                </div>
+                <div class="grocery-item">
+                    <img src="./images/grocery/grocery_2.webp" class="img-fluid" alt="">
+                </div>
+                <div class="grocery-item">
+                    <img src="./images/grocery/grocery_3.webp" class="img-fluid" alt="">
+                </div>
+                <div class="grocery-item">
+                    <img src="./images/grocery/grocery_4.webp" class="img-fluid" alt="">
+                </div>
+                <div class="grocery-item">
+                    <img src="./images/grocery/grocery_5.webp" class="img-fluid" alt="">
+                </div>
+            </div>
+            <button class="btn-bg-2"><a href="list.html">BẮT ĐẦU SHOPPING</a></button>
+
+        </section>
+        <!-- Healthy -->
+        <section class="healthy ">
+            <div class="container">
+                <div class="h3-title">Sức khỏe và thực phẩm</div>
+                <div class="healthy-list">
+                    <div class="healthy-item">
+                        <div class="healthy-content">
+                            <h2>01</h2>
+                            <img src="./images/healthy/healthy_1.webp" alt="">
+                            <a href="#">Đọc thêm</a>
+                        </div>
+                    </div>
+                    <div class="healthy-item">
+                        <div class="healthy-content">
+                            <h2>02</h2>
+                            <img src="./images/healthy/healthy_2.webp" alt="">
+                            <a href="#">Đọc thêm</a>
+                        </div>
+                    </div>
+                    <div class="healthy-item">
+                        <div class="healthy-content">
+                            <h2>03</h2>
+                            <img src="./images/healthy/healthy_3.webp" alt="">
+                            <a href="#">Đọc thêm</a>
+                        </div>
+                    </div>
+                    <div class="healthy-item">
+                        <div class="healthy-content">
+                            <h2>04</h2>
+                            <img src="./images/healthy/healthy_4.webp" alt="">
+                            <a href="#">Đọc thêm</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- how we do it -->
+        <section class="wedoit">
+            <div class="h1-title">Làm thế nào chúng tôi làm điều đó</div>
+            <div class="wedoit-list container">
+                <div class="wedoit-item wedoit-left">
+                    <img src="./images/gift/gift_1.webp" class="wedoit-img">
+                    <div class="wedoit-box">
+                        <div class="h4-title">1</div>
+                        <div class="h5-title">Xây dựng đơn đặt hàng của bạn</div>
+                        <p>Tùy chỉnh hộp của bạn và đặt lịch giao hàng định kỳ</p>
+                        <span class="wedoit-left-arrow"></span>
+                    </div>
+                </div>
+                <div class="wedoit-item wedoit-right">
+                    <img src="./images/gift/gift_1.webp" class="wedoit-img">
+                    <div class="wedoit-box">
+                        <div class="h4-title">2</div>
+                        <div class="h5-title">Tiết kiệm hơn nữa</div>
+                        <p>Giảm thêm 5–10% hàng nghìn sản phẩm trên Autoship</p>
+                        <span class="wedoit-right-arrow"></span>
+                    </div>
+                </div>
+                <div class="wedoit-item wedoit-left">
+                    <img src="./images/gift/gift_1.webp" class="wedoit-img">
+                    <div class="wedoit-box">
+                        <div class="h4-title">3</div>
+                        <div class="h5-title">Bạn đang kiểm soát</div>
+                        <p>Chỉnh sửa mặt hàng, bỏ qua hoặc tạm dừng Autoship hoặc đặt hàng một lần bất cứ lúc nào</p>
+                        <span class="wedoit-left-arrow"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="h1-title">
+                Hơn 500 thương hiệu hữu cơ đáng tin cậy
+            </div>
+        </section>
+        <!-- Organic Brands -->
+        <section class="overbrand container-fluid">
+            <div class="overbrand-list">
+                <div class="overbrand-item">
+                    <img src="./images/brand/brand_7.png" alt="">
+                </div>
+                <div class="overbrand-item">
+                    <img src="./images/brand/brand_8.png" alt="">
+                </div>
+                <div class="overbrand-item">
+                    <img src="./images/brand/brand_9.png" alt="">
+                </div>
+                <div class="overbrand-item">
+                    <img src="./images/brand/brand_10.png" alt="">
+                </div>
+                <div class="overbrand-item">
+                    <img src="./images/brand/brand_11.png" alt="">
+                </div>
+                <div class="overbrand-item">
+                    <img src="./images/brand/brand_12.png" alt="">
+                </div>
+                <div class="overbrand-item">
+                    <img src="./images/brand/brand_13.png" alt="">
+                </div>
+                <div class="overbrand-item">
+                    <img src="./images/brand/brand_14.png" alt="">
+                </div>
+                <div class="overbrand-item">
+                    <img src="./images/brand/brand_15.png" alt="">
+                </div>
+                <div class="overbrand-item">
+                    <img src="./images/brand/brand_16.png" alt="">
+                </div>
+
+            </div>
+        </section>
+        <!-- membership Perks -->
+        <section class="perks">
+            <div class="perks-list container">
+                    <div class="row">
+                        <div class="col-6 col-sm-12 col-md-12 col-lg-12">
+                            <div class="perks-box">
+                                <div class="icon">
+                                    <div class="imgBx active" style="--i:1;" data-id="content1">
+                                        <img src="./images/thrivemarket/item_1.webp" alt="">
+                                    </div>
+                                    <div class="imgBx" style="--i:2;" data-id="content2">
+                                        <img src="./images/thrivemarket/item_2.webp" alt="">
+                                    </div>
+                                    <div class="imgBx" style="--i:3;" data-id="content3">
+                                        <img src="./images/thrivemarket/item_3.webp" alt="">>
+                                    </div>
+                                    <div class="imgBx" style="--i:4;" data-id="content4">
+                                        <img src="./images/thrivemarket/item_4.webp" alt="">
+                                    </div>
+                                    <div class="imgBx" style="--i:5;" data-id="content5">
+                                        <img src="./images/thrivemarket/item_5.webp" alt="">
+                                    </div>
+                                    <div class="imgBx" style="--i:6;" data-id="content6">
+                                        <img src="./images/thrivemarket/item_6.webp" alt="">
+                                    </div>
+                                    <div class="imgBx" style="--i:7;" data-id="content7">
+                                        <img src="./images/thrivemarket/item_1.webp" alt="">
+                                    </div>
+                                    <div class="imgBx" style="--i:8;" data-id="content8">
+                                        <img src="./images/thrivemarket/item_2.webp" alt="">
+                                    </div>
+                                </div>
+                                <div class="content">
+                                        <div class="contentBx active" id="content1">
+                                            <div class="card">
+                                                <div class="imgBx" style="width:200px;height:200px">
+                                                    <img src="./images/thrivemarket/item_1.webp" alt="">
+                                                </div>
+                                                <div class="textBx">
+                                                    <h2>Someone Famous <br> <span>Products Designer</span></h2>
+                                                    <ul class="sci">
+                                                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="contentBx " id="content2">
+                                            <div class="card">
+                                                <div class="imgBx">
+                                                    <img src="./images/thrivemarket/item_2.webp" alt="">
+                                                </div>
+                                                <div class="textBx">
+                                                    <h2>Someone Famous <br> <span>Products Designer</span></h2>
+                                                    <ul class="sci">
+                                                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="contentBx" id="content3">
+                                            <div class="card">
+                                                <div class="imgBx">
+                                                    <img src="./images/thrivemarket/item_3.webp" alt="">
+                                                </div>
+                                                <div class="textBx">
+                                                    <h2>Someone Famous <br> <span>Products Designer</span></h2>
+                                                    <ul class="sci">
+                                                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="contentBx " id="content4">
+                                            <div class="card">
+                                                <div class="imgBx">
+                                                    <img src="./images/thrivemarket/item_4.webp" alt="">
+                                                </div>
+                                                <div class="textBx">
+                                                    <h2>Someone Famous <br> <span>Products Designer</span></h2>
+                                                    <ul class="sci">
+                                                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="contentBx " id="content5">
+                                            <div class="card">
+                                                <div class="imgBx">
+                                                    <img src="./images/thrivemarket/item_5.webp" alt="">
+                                                </div>
+                                                <div class="textBx">
+                                                    <h2>Someone Famous <br> <span>Products Designer</span></h2>
+                                                    <ul class="sci">
+                                                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="contentBx " id="content6">
+                                            <div class="card">
+                                                <div class="imgBx">
+                                                    <img src="./images/thrivemarket/item_6.webp" alt="">
+                                                </div>
+                                                <div class="textBx">
+                                                    <h2>Someone Famous <br> <span>Products Designer</span></h2>
+                                                    <ul class="sci">
+                                                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="contentBx " id="content7">
+                                            <div class="card">
+                                                <div class="imgBx">
+                                                    <img src="./images/thrivemarket/item_1.webp" alt="">
+                                                </div>
+                                                <div class="textBx">
+                                                    <h2>Someone Famous <br> <span>Products Designer</span></h2>
+                                                    <ul class="sci">
+                                                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="contentBx " id="content8">
+                                            <div class="card">
+                                                <div class="imgBx">
+                                                    <img src="./images/thrivemarket/item_2.webp" alt="">
+                                                </div>
+                                                <div class="textBx">
+                                                    <h2>Someone Famous <br> <span>Products Designer</span></h2>
+                                                    <ul class="sci">
+                                                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                     
+                        </div>
+                </div>
+            </div>
+        </section>
+        <!-- review -->
+        <section class="review">
+            <div class="container">
+                <div class="row review-list">
+                    <div class="col-6 review-item">
+                        <p>Cửa hàng tạp hóa với</p>
+                        <h2>Hơn 153.000 đánh giá 5 sao</h2>
+                        <div class="review-stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <div class="review-socials">
+                            <img src="./images/review/google_play.png" alt="">
+                            <img src="./images/review/app_store.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6 review-item">
+                        <h2> Như đã thấy trong</h2>
+                        <p>Chúng tôi tự hào mang theo hàng nghìn sản phẩm hữu cơ và bền vững chất lượng cao nhất, từ
+                            những thứ cần thiết cho tủ đựng thức ăn đến thịt và hải sản bền vững cho đến dịch vụ làm
+                            sạch bằng thực vật. Chúng tôi nói không với GMO, ưu tiên tìm nguồn cung ứng có đạo đức và
+                            bền vững, đồng thời kiểm tra mọi thứ từ thành phần cho đến tuyên bố chất lượng.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- faqs -->
+        <section class="faqs">
+            <!-- Container -->
+            <div class="container">
+                <div class="h3-title">FAQS</div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="accordion mb-2" id="accordionExample">
+                            <!-- Collapse one -->
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <a class="accordion-icon" data-toggle="collapse" data-target="#collapseOne"
+                                        aria-expanded="false" aria-controls="collapseOne">
+                                        <h5 class="py-2"> Lợi ích của tư cách thành viên Thrive Market là gì? <span
+                                                class="float-right"><i class="fas fa-angle-down"></i></span></h5>
+                                    </a>
+                                </div>
+                                <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        Với tư cách thành viên Thrive Market, bạn:
+                                        Tiết kiệm tới 30% so với giá bán lẻ đề xuất của nhà sản xuất (MSRP)* khi chúng
+                                        tôi lựa chọn hàng trăm nhãn hiệu tốt cho sức khỏe, hữu cơ và bền vững, tất cả
+                                        đều được tuyển chọn bởi các chuyên gia nội bộ của chúng tôi
+                                        Nhận quyền truy cập vào bán hàng độc quyền, giảm giá hàng tuần và quà tặng miễn
+                                        phí khi mua hàng—tất cả chỉ dành cho thành viên
+                                        Nhận vận chuyển nhanh chóng, thuận tiện và không có carbon cho tất cả các đơn
+                                        đặt hàng
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Collapse one -->
+                            <!-- Collapse Two -->
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+                                    <a class="accordion-icon" data-toggle="collapse" data-target="#collapseTwo"
+                                        aria-expanded="false" aria-controls="collapseTwo">
+                                        <h5 class="py-2"> Thrive Market đảm bảo tôi sẽ tiết kiệm tiền như thế nào? <span
+                                                class="float-right"><i class="fas fa-angle-down"></i></span></h5>
+                                    </a>
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        Lời hứa giá thấp của chúng tôi đảm bảo bạn sẽ nhận được mức giá tuyệt vời cho
+                                        mọi sản phẩm chúng tôi bán. Điều đó có nghĩa là nếu bạn tìm thấy một mức giá
+                                        thấp hơn ở nơi khác, chúng tôi sẽ khớp với nó. Xem điều khoản tại đây. Ngoài ra,
+                                        với tư cách thành viên, bạn tiết kiệm tới 30% so với giá bán lẻ đề xuất của nhà
+                                        sản xuất (MSRP)* trên mọi sản phẩm và có quyền truy cập vào các đợt giảm giá, ưu
+                                        đãi, quà tặng và giảm giá chỉ dành cho thành viên.
+
+                                        Bạn muốn tiết kiệm hơn nữa? Lên lịch giao hàng với tính năng Autoship dễ dàng và
+                                        thuận tiện của chúng tôi. Lên lịch giao hàng với Autoship để tiết kiệm thêm.
+
+                                        Khoản tiết kiệm ước tính mỗi năm dựa trên số lần ước tính một thành viên mua sắm
+                                        trong một năm nhân với khoản tiết kiệm trung bình $32 cho mỗi đơn hàng. Khoản
+                                        tiết kiệm trung bình được tính dựa trên giá bán lẻ đề xuất của nhà sản xuất
+                                        (MSRP) trừ đi giá của chúng tôi và khoản tiết kiệm khuyến mại. Xem Câu hỏi
+                                        thường gặp để biết thêm chi tiết. Ngoài ra, mọi tư cách thành viên trả phí sẽ
+                                        giúp cung cấp tư cách thành viên miễn phí 1 năm cho người có nhu cầu.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Collapse Two -->
+                            <!-- Collapse Three -->
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <a class="accordion-icon" data-toggle="collapse" data-target="#collapseThree"
+                                        aria-expanded="false" aria-controls="collapseThree">
+                                        <h5 class="py-2">Thrive Market bán những sản phẩm và thương hiệu nào? <span
+                                                class="float-right"><i class="fas fa-angle-down"></i></span></h5>
+                                    </a>
+                                </div>
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        Chúng tôi tự hào mang theo hàng nghìn sản phẩm hữu cơ và bền vững chất lượng cao
+                                        nhất, từ những thứ cần thiết cho tủ đựng thức ăn đến thịt và hải sản bền vững
+                                        cho đến dịch vụ làm sạch bằng thực vật. Chúng tôi nói không với GMO, ưu tiên tìm
+                                        nguồn cung ứng có đạo đức và bền vững, đồng thời kiểm tra mọi thứ từ thành phần
+                                        cho đến tuyên bố chất lượng.
+
+                                        Chúng tôi hợp tác và bán hơn 500 thương hiệu tốt cho sức khỏe như Annie's,
+                                        Califia, KIND, Dr. Bronners và Seventh Generation, v.v.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Collapse Three -->
+                            <!-- Collapse four -->
+                            <div class="card">
+                                <div class="card-header" id="headingFour">
+                                    <a class="accordion-icon" data-toggle="collapse" data-target="#collapseFour"
+                                        aria-expanded="false" aria-controls="collapseFour">
+                                        <h5 class="py-2">Chi phí thành viên Thrive Market là bao nhiêu? <span
+                                                class="float-right"><i class="fas fa-angle-down"></i></span></h5>
+                                    </a>
+                                </div>
+                                <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        Tham gia ngay hôm nay với giá $5/tháng, thanh toán hàng năm hoặc $12/tháng,
+                                        thanh toán hàng tháng. Các thành viên hàng năm có thể hủy bỏ bất cứ lúc nào
+                                        trong vòng 30 ngày đầu tiên của họ để được hoàn trả đầy đủ.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Collapse rour -->
+                        </div>
+                    </div>
+                </div>
+               <div class="faqs-btn">
+                 <button class="btn-bg-2"><a href="how-it-works.html">Tham gia hôm nay</a></button>
+               </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- marquee -->
+        <section class="marquee container-fluid">
+            <div class="marquee">
+                <div class="marquee-content">
+                  <div class="marquee-tag">Chất Lượng- An Toàn- Thực Phẩm</div>
+                  <div class="marquee-tag">Chất Lượng- An Toàn- Thực Phẩm</div>
+                  <div class="marquee-tag">Chất Lượng- An Toàn- Thực Phẩm</div>
+                </div>
+              </div>
+        </section>
+        
+    </main>
+
+    <!-- main end  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- footer start -->
+    <footer class="container-fluid footer">
+        <section class="footer-top container">
+            <div class="footer-top-left">
+            <a href="index.html">   <img src="./images/logo/logo.png" alt=""></a>
+            </div>
+            <div class="footer-top-right">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+        </section>
+        <section class="footer-center container">
+            <div class="footer-center-menu">
+                <a href="gift.html">Quà tặng -</a>
+                <a href="regulation.html">Điều khoản -</a>
+                <a href="login.html">Thông tin cá nhân -</a>
+                <a href="return_policy.html">Chính sách -</a>
+                <a href="map.html">Liên hệ</a>
+            </div>
+            <div class="footer-center-title">
+                Nếu bạn bị khiếm thị và gặp khó khăn với trang web của chúng tôi, hãy gọi cho chúng tôi theo số
+                1‑855‑997‑2315
+            </div>
+            <div class="footer-center-title">
+                Trang web này được bảo vệ bởi reCAPTCHA và <span><a href="return_policy.html" class="text-white"> Chính sách quyền riêng tư</a> và <a href="regulation.html" class="text-white">Điều khoản dịch vụ</a></span>
+                của Google sẽ được áp dụng.
+            </div>
+
+        </section>
+        <section class="footer-bottom">
+            © Thrive Market 2022 All rights reserved.
+        </section>
+    </footer>
+    <!-- footer end  -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        let imgBx = document.querySelectorAll('.imgBx');
+        let contentBx = document.querySelectorAll('.contentBx');
+        for(let i =0;i<imgBx.length;i++){
+            imgBx[i].addEventListener('mouseover',function(){
+                for(let i=0;i<contentBx.length;i++){
+                    contentBx[i].className = 'contentBx';
+                }
+                document.getElementById(this.dataset.id).className = 'contentBx active';
+                for(let i= 0;i<imgBx.length;i++){
+                    imgBx[i].className  = 'imgBx';
+                }
+                this.className = 'imgBx active';
+            })
+        }
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- js --------------------------------------------------------------------------->
+    <!-- backtotop js-->
+    <script src="./js/backtotop/main-backToTop.js"></script>
+    <!-- bootstrap js -->
+    <!-- <script src="./js/bootstrap/bootstrap.min.js"></script> -->
+    <!-- carousel js-->
+    <!-- <script src="./js/carousel/owl.carousel.min.js"></script> -->
+    <!-- jquery js-->
+    <!-- <script src="./js/jquery/jquery.min.js"></script> -->
+    <!-- countup -->
+    <script src="./js/jquery_countup/jquery.countup.js"></script>
+    <!-- scrollbar -->
+    <script src="./js/jquery_scrollbar/jquery.mCustomScrollbar.js"></script>
+    <!-- util js-->
+    <script src="./js/jquery_util/util.js"></script>
+    <!-- wow js-->
+    <script src="./js/jquery_wow/wow.min.js"></script>
+    <!-- lightbox -->
+    <script src="./js/lightbox/lightbox.min.js"></script>
+    <!-- popper -->
+    <!-- <script src="./js/popper/popper.min.js"></script> -->
+    <!-- swiper -->
+    <script src="./js/swiper/swiper.min.js"></script>
+    <!-- awesome js -->
+    <script src="./js/awesome/all-awesome.min.js"></script>
+    <!-- boostrap -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <!-- main -->
+    <script src="./js/main/main.js"></script>
+</body>
+
+</html>

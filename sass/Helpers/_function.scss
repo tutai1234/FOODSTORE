@@ -1,0 +1,88 @@
+
+
+.h1-title {
+    font-weight: bold;
+    text-align: center;
+    font-size: $font-size-2;
+    padding: 5px 0;
+}
+
+.h2-title {
+    text-align: center;
+}
+
+
+.h3-title {
+    font-weight: bold;
+    text-align: center;
+    font-size: $font-size-4;
+    color: white;
+}
+
+.h4-title {
+    font-size: $font-size-3;
+    color: $color-black;
+    font-weight: bold;
+}
+
+.h5-title {
+    font-size: $font-size-1;
+    color: $color-black;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.4;
+    padding: 5px 0;
+}
+
+
+.h6-title {
+    font-weight: bold;
+    color: #007e42;
+    line-height: 1.3em;
+    padding-left: 10px;
+    font-size: 20px;
+    position: relative;
+    padding: 5px 8px;
+
+    &::before {
+        content: "";
+        display: block;
+        width: 3px;
+        height: 20px;
+        background: #37f70c;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+.h7-title {
+    font-size: $font-size-4;
+    line-height: $font-size-4;
+    padding: 10px 10px 20px 0px;
+    color: #008848;
+    font-weight: normal;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.h1-title_small {
+    font-size: $font-size-html;
+    color: $color-black;
+    font-weight: $font-weight-bold;
+}
+
+.caption {
+    font-size: $font-size-1;
+    line-height: $font-size-3;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    font-style: italic;
+    display: block;
+    color: $color-white;
+    background: $background-green-1;
+}
+

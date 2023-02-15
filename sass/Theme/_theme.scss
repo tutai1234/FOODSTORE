@@ -1,0 +1,22 @@
+.bg-green-1{
+    background-color: $background-green-1;
+}
+
+.line::after{
+    content: '';
+    height: 5px;
+    /* /* hướng trải màu : to right: trái qua phải và ngược lại* ,gồm màu bắt đầu và kết thúc/ */
+    width: 0;
+    background: rgb(54, 93, 90);
+    display: block;
+    transition: 0.5s;
+}
+
+.line:hover::after{
+    width: 100%;
+    background: rgb(12, 175, 162);
+}
+
+.line.active::after{
+    width: 100%;
+}

@@ -1,0 +1,44 @@
+.experience_item{
+    margin-top: 35px;
+}
+.experience_item .experience_item-box {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 10px 20px ;
+}
+
+.experience_item .experience_item-box .experience-news-big {
+    background-color: $background-gray-1;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    display: none;
+}
+
+.experience_item .experience_item-box .experience-news-big:nth-child(1),
+.experience_item .experience_item-box .experience-news-big:nth-child(2){
+    display: inline-block;
+}
+
+// 2 
+.experience_item_2{
+    margin-top: 35px;
+}
+.experience_item_2 .experience_item-box_2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px 20px ;
+}
+
+.experience_item_2 .experience_item-box_2 .experience-news-big_2 {
+    background-color: $background-gray-1;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    display: none;
+}
+
+.experience_item_2 .experience_item-box_2 .experience-news-big_2:nth-child(1){
+    display: inline-block;
+}
+

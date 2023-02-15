@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOODS</title>
+    <!-- animate css-->
+    <link rel="stylesheet" href="./css/animate/animate.css">
+    <!-- awesome css-->
+    <link rel="stylesheet" href="./css/awesome/font-awesome.css">
+    <!-- bootstrap css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- carousel css-->
+    <!-- <link rel="stylesheet" href="./css/carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/carousel/owl.theme.default.min.css"> -->
+    <!-- scrollbarcss -->
+    <link rel="stylesheet" href="./css/jquery_scrollbar/jquery.mCustomScrollbar.css">
+    <!-- lightbox css-->
+    <link rel="stylesheet" href="./css/lightbox/lightbox.min.css">
+    <!-- swiper css-->
+    <link rel="stylesheet" href="./css/swiper/swiper.min.css">
+    <!-- venobox css-->
+    <link rel="stylesheet" href="./css/venobox/venobox.css">
+    <!-- shortcut  css-->
+    <link rel="shortcut icon" href="images/logo/logo.png" type="image/x-icon" />
+    <!-- style -->
+
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- sass ./sass/main.scss ./css/main.css --watch -->
+
+</head>
+
+<body>
+    <!-- header start-->
+    <!-- heade_top -->
+    <header id="header">
+        <section class="header-top">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper header-top-content">
+                    <div class="swiper-slide bg-green-1">Ưu đãi có hạn: Nhận $ 60 MIỄN PHÍ trên tạp chí hôm nay.
+                        <span>Điều
+                            khoản</span></div>
+                    <div class="swiper-slide bg-green-1">Ưu đãi miễn ship: Cho đơn hàng từ $100. <span>Điều khoản</span>
+                    </div>
+                    <div class="swiper-slide bg-green-1 ">Ưu đãi quà tặng: Mua 2 tặng 1 chỉ hôm nay. <span>Điều
+                            khoản</span></div>
+                </div>
+            </div>
+        </section>
+        <section class="header-bottom">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="#"><img class="logo" src="./images/logo/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fa fa-align-justify"></span>
+                </button>
+  
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-align-center"></i> Danh mục
+  
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Thịt</a>
+                                <a class="dropdown-item" href="#">Cá</a>
+                                <a class="dropdown-item" href="#">Rau củ quả</a>
+                                <a class="dropdown-item" href="#">Bánh & kẹo</a>
+                                <a class="dropdown-item" href="#">Cafe</a>
+                                <a class="dropdown-item" href="#">Nước giải khát</a>
+                                <a class="dropdown-item" href="#">Đồ đông lạnh</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="index.html"> <i class="fa fa-home"></i> Home</a>
+                        </li>
+                        <form class="form-inline my-2 my-lg-0 border-2">
+                            <div class="input-group">
+                                <input type="search" class="form-control rounded" placeholder="Tìm kiếm..."
+                                    aria-label="Search" aria-describedby="search-addon" />
+                            </div>
+                        </form>
+                    </ul>
+                    <form class="form-inline mr-2">
+                        <button class="btn btn-outline-success btn-bg-1" type="button">
+                           <a href="login.html"> Đăng nhập</a>
+                        </button>
+                    </form>
+                    <form class="form-inline mr-2">
+                        <button class="btn btn-outline-success btn-bg-2" type="button">
+                            <i class="fa fa-gifts"></i>
+                            <a href="gift.html">Quà tặng miễn phí</a>
+                        </button>
+                    </form>
+                    <form class="form-inline">
+                        <button class="btn btn-outline-success btn-bg-1" type="button">
+                            <i class="fa fa-shopping-cart"></i>
+                           <a href="cart.html"> Giỏ hàng</a>
+                        </button>
+                    </form>
+                </div>
+            </nav>
+        </section>
+    </header>
+    <!-- header end -->
+
+
+
+    <!-- main start  -->
+    <main>
+        <!-- product -->
+        <section class="page-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 blog-form">
+                        <h2 class="blog-sidebar-title"><b>Giỏ hàng</b></h2>
+                        <hr />
+                        <p class="blog-sidebar-text">Chưa có sản phẩm</p>
+                        <div>&nbsp;</div>
+                        <div>&nbsp;</div>
+                        <h2 class="blog-sidebar-title"><b>Khuyến mãi hot</b></h2>
+                        <hr />
+                        <nav class='page_product-nav bounceInDown bg-dark'>
+                            <ul class="page_product-ul">
+                                <li class='sub-menu page_product-li'>
+                                    <a href='#message' class=" page_product-a">Thit,cá,trứng
+                                    <div class='fa fa-caret-down right page_product-icon '></div>
+                                </a>
+                                    <ul>
+                                        <li><a href='#settings'>Thịt các loại</a></li>
+                                        <li><a href='#settings'>Cá,hải sản</a></li>
+                                        <li><a href='#settings'>Trứng gà,vịt</a></li>
+                                    </ul>
+                                </li>
+                                <li class='sub-menu page_product-li'>
+                                    <a href='#message'  class="page_product-a">Rau,củ,trái cây
+                                        <div class='fa fa-caret-down right page_product-icon '></div>
+                                    </a>
+                                    <ul>
+                                        <li><a href='#settings'>FAQ's</a></li>
+                                        <li><a href='#settings'>Submit a Ticket</a></li>
+                                        <li><a href='#settings'>Network Status</a></li>
+                                    </ul>
+                                </li>
+                                <li class='sub-menu page_product-li'>
+                                    <a href='#message'  class="page_product-a">Thực phẩm đông - mát
+                                        <div class='fa fa-caret-down right page_product-icon '></div>
+                                    </a>
+                                    <ul>
+                                        <li><a href='#settings'>FAQ's</a></li>
+                                        <li><a href='#settings'>Submit a Ticket</a></li>
+                                        <li><a href='#settings'>Network Status</a></li>
+                                    </ul>
+                                </li>
+                                <li class='sub-menu page_product-li'>
+                                    <a href='#message'  class="page_product-a">Sữa các loại
+                                        <div class='fa fa-caret-down right page_product-icon '></div>
+                                    </a>
+                                    <ul>
+                                        <li><a href='#settings'>FAQ's</a></li>
+                                        <li><a href='#settings'>Submit a Ticket</a></li>
+                                        <li><a href='#settings'>Network Status</a></li>
+                                    </ul>
+                                </li>
+                                <li class='sub-menu page_product-li'>
+                                    <a href='#message'  class="page_product-a">Bánh kẹo các loại
+                                        <div class='fa fa-caret-down right page_product-icon '></div>
+                                    </a>
+                                    <ul>
+                                        <li><a href='#settings'>FAQ's</a></li>
+                                        <li><a href='#settings'>Submit a Ticket</a></li>
+                                        <li><a href='#settings'>Network Status</a></li>
+                                    </ul>
+                                </li>
+                                <li class='sub-menu page_product-li'>
+                                    <a href='#message'  class="page_product-a">Chăm sóc thú cưng
+                                        <div class='fa fa-caret-down right page_product-icon '></div>
+                                    </a>
+                                    <ul>
+                                        <li><a href='#settings'>FAQ's</a></li>
+                                        <li><a href='#settings'>Submit a Ticket</a></li>
+                                        <li><a href='#settings'>Network Status</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                        <br>
+                        <h2 class="blog-sidebar-title"><b>Lọc sản phẩm</b></h2>
+                        <hr />
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Tìm kiếm" aria-label="Receipient's username" aria-describely="basic-addon2">
+                            <div class="input-group-append">
+                                <span class="input-group-text" id="basic-addon2"><i class="fa fa-search"></i></span>
+                            </div>    
+                        </div>
+                        <p class="tags">Giá từ 100.000đ - 299.000đ</p>
+                        <p class="tags">Giá từ 299.000đ - 1 triệu</p>
+                        <br>
+                        <h2 class="blog-sidebar-title"><b>Mục khác</b></h2>
+                        <p class="product-sidebar-list"><b>Thanh toán online</b></p>
+                        <p class="product-sidebar-list"><b>Tin tức trong ngày</b></p>
+                        <p class="product-sidebar-list"><b>Phiếu giảm giá</b></p>
+    
+    
+                    </div>
+                    <!--END  <div class="col-lg-3 blog-form">-->
+                    <div class="col-lg-9 " style="padding-left: 30px;">
+                        <div class="row">
+                            <div class="col">
+                                24 sản phẩm
+                            </div>
+                            <div class="col">
+                                <select class="form-control">
+                                    <option value=""> Mặc định</option>
+                                    <option value="popularity">Sản phẩm liên quan</option>
+                                    <option value="average">Giá tăng dần</option>
+                                    <option value="latest">Giá giảm dần</option>
+                                </select>
+                            </div>
+                        </div>
+                       <div class="experience_item_2">
+                        <div class="experience_item-box_2">
+                        <!-- Sorting by <div class="row"> -->
+                
+                        <div class="experience-news-big_2">
+                            <div class="row">
+                                <div class="col-sm-3 col-md-6 col-lg-4">
+                                    <div class="card">
+                                        <div class="card-body text-center card-product">
+                                           <a href="product_detail.html">
+                                            <img src="./images/page_product/vegetable_item1.jpg" class="product-image">
+                                            <h5 class="card-title"><b>Rau lá</b></h5> 
+                                            <p class="card-text small">With supporting text below as a natural lead-in to additional content.</p>
+                                            <p class="tags">164.000đ <span>186.000đ</span> <span class="sale">50%</span></p>
+                                           </a>
+                                            <a href="product_detail.html" target="_blank" class="btn btn-success button-text"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm giỏ hàng</a>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="col-sm-3 col-md-6 col-lg-4">
+                                    <div class="card">
+                                        <div class="card-body text-center card-product">
+                                       <a href="product_detail.html">     <img src="./images/page_product/vegetable_item2.jpg" class="product-image">
+                                        <h5 class="card-title"><b>Rau lá</b></h5> 
+                                        <p class="card-text small">With supporting text below as a natural lead-in to additional content.</p>
+                                        <p class="tags">164.000đ <span>186.000đ</span> <span class="sale">50%</span></p>
+                                     </a>
+                                            <a href="product_detail.html" target="_blank" class="btn btn-success button-text"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm giỏ hàng</a>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="col-sm-3 col-md-6 col-lg-4">
+                                    <div class="card">
+                                        <div class="card-body text-center card-product">
+                                       <a href="product_detail.html">     <img src="./images/page_product/vegetable_item2.jpg" class="product-image">
+                                        <h5 class="card-title"><b>Rau lá</b></h5> 
+                                        <p class="card-text small">With supporting text below as a natural lead-in to additional content.</p>
+                                        <p class="tags">164.000đ <span>186.000đ</span> <span class="sale">50%</span></p>
+                                     </a>
+                                            <a href="product_detail.html" target="_blank" class="btn btn-success button-text"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm giỏ hàng</a>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                            </div>
+                        </div>
+                     
+                        <!-- Sorting by <div class="row"> -->
+                         <div class="experience-news-big_2">
+                            <div class="row">
+                                <div class="col-sm-3 col-md-6 col-lg-4">
+                                    <div class="card">
+                                        <div class="card-body text-center card-product">
+                                       <a href="product_detail.html">     <img src="./images/page_product/vegetable_item2.jpg" class="product-image">
+                                        <h5 class="card-title"><b>Rau lá</b></h5> 
+                                        <p class="card-text small">With supporting text below as a natural lead-in to additional content.</p>
+                                        <p class="tags">164.000đ <span>186.000đ</span> <span class="sale">50%</span></p>
+                                     </a>
+                                            <a href="product_detail.html" target="_blank" class="btn btn-success button-text"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm giỏ hàng</a>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="col-sm-3 col-md-6 col-lg-4">
+                                    <div class="card">
+                                        <div class="card-body text-center card-product">
+                                       <a href="product_detail.html">     <img src="./images/page_product/vegetable_item2.jpg" class="product-image">
+                                        <h5 class="card-title"><b>Rau lá</b></h5> 
+                                        <p class="card-text small">With supporting text below as a natural lead-in to additional content.</p>
+                                        <p class="tags">164.000đ <span>186.000đ</span> <span class="sale">50%</span></p>
+                                     </a>
+                                            <a href="product_detail.html" target="_blank" class="btn btn-success button-text"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm giỏ hàng</a>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="col-sm-3 col-md-6 col-lg-4">
+                                    <div class="card">
+                                        <div class="card-body text-center card-product">
+                                       <a href="product_detail.html">     <img src="./images/page_product/vegetable_item2.jpg" class="product-image">
+                                        <h5 class="card-title"><b>Rau lá</b></h5> 
+                                        <p class="card-text small">With supporting text below as a natural lead-in to additional content.</p>
+                                        <p class="tags">164.000đ <span>186.000đ</span> <span class="sale">50%</span></p>
+                                     </a>
+                                            <a href="product_detail.html" target="_blank" class="btn btn-success button-text"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm giỏ hàng</a>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                            </div>
+                        </div>
+                      
+                        <!-- Sorting by <div class="row"> -->
+                            <div class="experience-news-big_2">
+                                <div class="row">
+                                    <div class="col-sm-3 col-md-6 col-lg-4">
+                                        <div class="card">
+                                            <div class="card-body text-center card-product">
+                                           <a href="product_detail.html">     <img src="./images/page_product/vegetable_item2.jpg" class="product-image">
+                                            <h5 class="card-title"><b>Rau lá</b></h5> 
+                                            <p class="card-text small">With supporting text below as a natural lead-in to additional content.</p>
+                                            <p class="tags">164.000đ <span>186.000đ</span> <span class="sale">50%</span></p>
+                                         </a>
+                                                <a href="product_detail.html" target="_blank" class="btn btn-success button-text"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm giỏ hàng</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 col-md-6 col-lg-4">
+                                        <div class="card">
+                                            <div class="card-body text-center card-product">
+                                           <a href="product_detail.html">     <img src="./images/page_product/vegetable_item2.jpg" class="product-image">
+                                            <h5 class="card-title"><b>Rau lá</b></h5> 
+                                            <p class="card-text small">With supporting text below as a natural lead-in to additional content.</p>
+                                            <p class="tags">164.000đ <span>186.000đ</span> <span class="sale">50%</span></p>
+                                         </a>
+                                                <a href="product_detail.html" target="_blank" class="btn btn-success button-text"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm giỏ hàng</a>
+                                            </div>
+                                        </div>
+                                    </div>          
+                                    <div class="col-sm-3 col-md-6 col-lg-4">
+                                        <div class="card">
+                                            <div class="card-body text-center card-product">
+                                           <a href="product_detail.html">     <img src="./images/page_product/vegetable_item2.jpg" class="product-image">
+                                            <h5 class="card-title"><b>Rau lá</b></h5> 
+                                            <p class="card-text small">With supporting text below as a natural lead-in to additional content.</p>
+                                            <p class="tags">164.000đ <span>186.000đ</span> <span class="sale">50%</span></p>
+                                         </a>
+                                                <a href="product_detail.html" target="_blank" class="btn btn-success button-text"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Thêm giỏ hàng</a>
+                                            </div>
+                                        </div>
+                                    </div>
+            
+                                </div>
+                            </div>
+                        </div>
+                       </div>
+                    <!-- <div id="load-more">load more</div> -->
+                     <div  id="load-more" class="experience-center">
+                        <button  class="btn-bg-2">Xem thêm</button>
+                     </div>
+                     <!-- Sorting by <div class="row"> -->
+                    </div>
+                    <!--END  <div class="col-lg-9">-->
+                </div>
+            </div>
+        </section>
+        <!-- marquee -->
+        <section class="marquee container-fluid">
+            <div class="marquee">
+                <div class="marquee-content">
+                    <div class="marquee-tag">Chất Lượng- An Toàn- Thực Phẩm</div>
+                    <div class="marquee-tag">Chất Lượng- An Toàn- Thực Phẩm</div>
+                    <div class="marquee-tag">Chất Lượng- An Toàn- Thực Phẩm</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- main end  -->
+
+
+
+
+
+    <!-- footer start -->
+    <footer class="container-fluid footer">
+        <section class="footer-top container">
+            <div class="footer-top-left">
+            <a href="index.html">   <img src="./images/logo/logo.png" alt=""></a>
+            </div>
+            <div class="footer-top-right">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+        </section>
+        <section class="footer-center container">
+            <div class="footer-center-menu">
+                <a href="gift.html">Quà tặng -</a>
+                <a href="regulation.html">Điều khoản -</a>
+                <a href="login.html">Thông tin cá nhân -</a>
+                <a href="return_policy.html">Chính sách -</a>
+                <a href="map.html">Liên hệ</a>
+            </div>
+            <div class="footer-center-title">
+                Nếu bạn bị khiếm thị và gặp khó khăn với trang web của chúng tôi, hãy gọi cho chúng tôi theo số
+                1‑855‑997‑2315
+            </div>
+            <div class="footer-center-title">
+                Trang web này được bảo vệ bởi reCAPTCHA và <span><a href="return_policy.html" class="text-white"> Chính sách quyền riêng tư</a> và <a href="regulation.html" class="text-white">Điều khoản dịch vụ</a></span>
+                của Google sẽ được áp dụng.
+            </div>
+
+        </section>
+        <section class="footer-bottom">
+            © Thrive Market 2022 All rights reserved.
+        </section>
+    </footer>
+    <!-- footer end  -->
+
+
+
+
+
+
+
+
+
+
+    <script>
+    
+        let loadMoreBtn = document.querySelector('#load-more');
+            let currentItem = 1;
+        
+            loadMoreBtn.onclick = () => {
+              let boxes = [...document.querySelectorAll('.experience_item_2 .experience_item-box_2 .experience-news-big_2')];
+              for (var i = currentItem; i < currentItem + 1; i++) {
+                boxes[i].style.display = 'inline-block';
+              }
+              currentItem += 1;
+        
+              if (currentItem >= boxes.length) {
+                loadMoreBtn.style.display = 'none';
+              }
+            }
+          </script>
+        
+
+
+
+
+
+
+
+
+
+
+    <script src="./js/main/product.js"></script>
+    <!-- js --------------------------------------------------------------------------->
+    <!-- backtotop js-->
+    <script src="./js/backtotop/main-backToTop.js"></script>
+    <!-- bootstrap js -->
+    <!-- <script src="./js/bootstrap/bootstrap.min.js"></script> -->
+    <!-- carousel js-->
+    <!-- <script src="./js/carousel/owl.carousel.min.js"></script> -->
+    <!-- jquery js-->
+    <!-- <script src="./js/jquery/jquery.min.js"></script> -->
+    <!-- countup -->
+    <script src="./js/jquery_countup/jquery.countup.js"></script>
+    <!-- scrollbar -->
+    <script src="./js/jquery_scrollbar/jquery.mCustomScrollbar.js"></script>
+    <!-- util js-->
+    <script src="./js/jquery_util/util.js"></script>
+    <!-- wow js-->
+    <script src="./js/jquery_wow/wow.min.js"></script>
+    <!-- lightbox -->
+    <script src="./js/lightbox/lightbox.min.js"></script>
+    <!-- popper -->
+    <!-- <script src="./js/popper/popper.min.js"></script> -->
+    <!-- swiper -->
+    <script src="./js/swiper/swiper.min.js"></script>
+    <!-- awesome js -->
+    <script src="./js/awesome/all-awesome.min.js"></script>
+    <!-- boostrap -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script>
+		$('.sub-menu ul').hide();
+		$(".sub-menu a").click(function () {
+			$(this).parent(".sub-menu").children("ul").slideToggle("200");
+			$(this).find(".right").toggleClass("fa-caret-up fa-caret-down");
+		});
+	</script>
+    <!-- main -->
+</body>
+
+</html>

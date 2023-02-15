@@ -1,0 +1,49 @@
+.thrivemarket {
+    &-ratings {
+        display: flex;
+        gap: 0 10px;
+        &-icon{
+            color: $color-yellow-1;
+        }
+        &-number{
+            font-weight: $font-weight-normal;
+            font-size: $font-size-1;
+        }
+    }
+    &-title{
+        font-size: $font-size-4;
+        font-weight: $font-weight-bold;
+    }
+    &-price{
+        display: flex;
+        gap: 0 10px;
+        &-new{
+            font-size: $font-size-1;
+            font-weight: bold;
+        }
+        &-old{
+            font-size: $font-size-html;
+            font-weight: $font-weight-normal;
+            
+        }
+    }
+    &-title_2{
+        font-size: $font-size-2;
+        font-weight: $font-weight-bold;
+        text-align: center;
+    }
+}
+
+
+
+// responsive
+@media screen and (max-width:992px){
+    .thrivemarket{
+      &-title{
+        font-size: $font-size-1;
+      }
+      button.btn-bg-2{
+        font-size: $font-size-small-2;
+      }
+    }
+}

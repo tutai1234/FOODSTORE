@@ -1,0 +1,84 @@
+.membership{
+    .membership-box{
+        height: 450px;
+        margin: 20px 0;
+        position: relative;
+        background-color: $background-white-1;
+        cursor: pointer;
+        &-top{
+            background-color: $background-green-1;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            padding: 10px;
+            text-align: center;
+            color: white;
+            font-weight: $font-weight-normal;
+        }
+        &-center{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 100%;
+            text-align: center;
+            ul{
+                li{
+                    list-style: none;
+                    text-align: left;
+                    margin: 15px 0;
+                    a{
+                        color: black;
+                        font-size: $font-size-1;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        &-bottom button{
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            padding: 15px;
+            transform: translateX(-50%);
+            background-color: $background-pink-1;
+            width: 100%;
+            border-bottom-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            font-weight: $font-weight-bold;
+            font-size: $font-size-1;
+            border: none;
+            transition: all .5s;
+            &:hover{
+                background-color: #e67d3c;
+            }
+        }
+    }
+    .menbership-desc .swiper-slide_2{
+        color: black;
+    }
+}
+
+
+
+
+
+
+// responsive
+
+
+    @media screen and (max-width: 992px){
+        .membership{
+            .membership-desc{
+                h2{
+                    font-size: $font-size-1;
+                }
+                .swiper-pagination{
+                    display: none;
+                }
+    
+            }
+        }
+    }
